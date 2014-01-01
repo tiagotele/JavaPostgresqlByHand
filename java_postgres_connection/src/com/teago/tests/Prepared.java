@@ -13,12 +13,12 @@ public class Prepared {
 		Connection con = null;
 		PreparedStatement pst = null;
 
+		String password = "admin";
 		String url = "jdbc:postgresql://localhost/teago";
 		String user = "postgres";
-		String password = "1234";
 
 		try {
-			int id = 7;
+			int id = 6;
 			String author = "Paulo Coelho";
 			con = DriverManager.getConnection(url, user, password);
 

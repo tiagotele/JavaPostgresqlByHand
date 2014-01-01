@@ -14,7 +14,7 @@ public class Version {
 		Statement st = null;
 		ResultSet rs = null;
 
-		String password = "1234";
+		String password = "admin";
 		String url = "jdbc:postgresql://localhost/teago";
 		String user = "postgres";
 
